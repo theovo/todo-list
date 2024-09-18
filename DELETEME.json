@@ -1,0 +1,14 @@
+{
+    "name": "template",
+    "version": "1.0.0",
+    "main": "index.js",
+    "scripts": {
+        "serve": "webpack serve --config webpack.dev.js",
+        "build": "webpack --config webpack.prod.js",
+        "deploy": "git subtree push --prefix dist origin gh-pages"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "description": ""
+}
